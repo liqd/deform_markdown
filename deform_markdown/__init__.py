@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# __version__ = '0.1.0'
 import json
 
 from colander import null
@@ -38,7 +39,7 @@ class MarkdownTextAreaWidget(TextAreaWidget):
         template = readonly and self.readonly_template or self.template
         return field.renderer(template, **values)
 
-    def _add_options(self, kw: dict) -> dict:
+    def _add_options(self, kw):
         options = dict(self.default_options)
         from datetime import datetime
         uniqueid = hash(datetime.now())
