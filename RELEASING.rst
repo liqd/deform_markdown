@@ -22,7 +22,6 @@ Release
 
 3. Push commit and tag
 
-   `git push`
    `git push --tags`
 
 4. Check:
@@ -30,5 +29,3 @@ Release
    * all test pass on travis
    * new release is deployed to pypi
    * pypi page displays properly
-
-Further reading: https://cookiecutter-pypackage.readthedocs.io/en/latest/pypi_release_checklist.html
