@@ -2,7 +2,7 @@
 deploy:
   true:
     condition: $TOXENV == py27
-    repo: joka/deform_markdown
+    repo: liqd/deform_markdown
     tags: true
   provider: pypi
   password:
