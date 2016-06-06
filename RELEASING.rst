@@ -22,6 +22,7 @@ Release
 
 3. Push commit and tag
 
+   `git push`
    `git push --tags`
 
 4. Check:
