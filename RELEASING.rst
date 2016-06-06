@@ -14,4 +14,21 @@ Read: https://cookiecutter-pypackage.readthedocs.io/en/latest/travis_pypi_setup.
 Release
 -------
 
-Follow: https://cookiecutter-pypackage.readthedocs.io/en/latest/pypi_release_checklist.html
+1. Update HISTORY.txt (If not done yet)
+
+2. Bump version number (major|minor|patch)
+
+   `bumpversion minor`
+
+3. Push commit and tag
+
+   `git push`
+   `git push --tags`
+
+4. Check:
+
+   * all test pass on travis
+   * new release is deployed to pypi
+   * pypi page displays properly
+
+Further reading: https://cookiecutter-pypackage.readthedocs.io/en/latest/pypi_release_checklist.html
