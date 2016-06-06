@@ -6,7 +6,7 @@ from deform.widget import default_resource_registry
 from deform.widget import TextAreaWidget
 
 
-__version__ = '0.2.1'
+__version__ = '0.2.2'
 
 
 class MarkdownTextAreaWidget(TextAreaWidget):

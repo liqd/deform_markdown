@@ -25,7 +25,7 @@ setup_requirements = [
 
 setup(
     name='deform_markdown',
-    version='0.2.1',
+    version='0.2.2',
     description="Deform widget using 'simplemde' markdown editor to edit "
                 "TextArea fields.",
     long_description=readme + '\n\n' + history,
