@@ -3,6 +3,7 @@ deploy:
   on:
     repo: liqd/deform_markdown
     tags: true
+    all_branches: true
   provider: pypi
   password:
     secure: !!binary |
