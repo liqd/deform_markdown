@@ -13,9 +13,10 @@ Markdown Widget for Deform
         :alt: Documentation Status
 
 
-Deform widget using "simple-markdown-editor" to edit TextArea fields.
+Deform widget using simpleMDE_  to edit TextArea fields.
 
 * Free software: ISC license
+* Code: https://github.com/liqd/deform_markdown
 * Documentation: https://deform_markdown.readthedocs.org.
 
 Features
@@ -30,3 +31,4 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+.. _`simpleMDE`: https://simplemde.com
