@@ -12,17 +12,21 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    # TODO: put package requirements here
+    'deform',
 ]
 
 test_requirements = [
-    # TODO: put package test requirements here
+    'pytest',
+]
+
+setup_requirements = [
+    'pytest-runner',
 ]
 
 setup(
     name='deform_markdown',
     version='0.1.0',
-    description="Deform widget using 'simple-markdown-editor' to edit "
+    description="Deform widget using 'simplemde' markdown editor to edit "
                 "TextArea fields.",
     long_description=readme + '\n\n' + history,
     author="Joscha Krutzki",
@@ -46,10 +50,9 @@ setup(
         "Programming Language :: Python :: 2",
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
     ],
-    test_suite='tests',
+    setup_requires=setup_requirements,
     tests_require=test_requirements
 )
