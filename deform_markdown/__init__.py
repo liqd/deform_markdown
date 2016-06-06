@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
-# __version__ = '0.2.1'
 import json
 
 from colander import null
 from deform.widget import default_resource_registry
 from deform.widget import TextAreaWidget
+
+
+__version__ = '0.2.1'
 
 
 class MarkdownTextAreaWidget(TextAreaWidget):
