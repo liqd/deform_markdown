@@ -3,7 +3,7 @@ History
 =======
 
 
-{new_version} ({now})
+0.2.6 (2016-06-07)
 ------------------
 
 * Fix again: travis deployment not working
